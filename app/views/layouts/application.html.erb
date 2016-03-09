@@ -55,14 +55,47 @@
 
 		<!--<br class="clr" />-->
 
-		<div id="footer">
+		<div id="footer" >
     		<div class="container">
-      			<b>Footer Here</b>
-      			<br />
-      			<%= link_to 'Link', '#' %>
-    		</div>
-  		</div>
+    			<div class="col-xs-10 col-xs-offset-1 text-center">
+	    			<div class="col-sm-3">
+	      				<b>Teachers</b>
+	      				<br />
+	      				<%= link_to 'Teach a Course', new_instructor_course_path %>
+	      				<br />
+	      				<%= link_to 'View Dashboard' , '#' %>
+	      			</div>
+	      			<div class="col-sm-3">
+	      				<b>About</b>
+	      				<br />
+	      				<%= link_to 'Team', '#' %>
+	      				<br />
+	      				<%= link_to 'Careers' , '#' %>
+	      			</div>
+	      			<div class="col-sm-3">
+	      				<b>Contact</b>
+	      				<br />
+	      				<%= link_to 'theFirehoseProject', '#' %>
+	      				<br />
+	      				<%= link_to 'Cambrigde, MA' , '#' %>
+	      			</div>
 
+	      			<div class="col-sm-3">
+	      				<b>Social</b>
+	      				<br />
+	      				<div class="col-sm-4">
+	      					<h2><%= link_to 'f', '#' %></h2>
+	      				</div>
+	      				<div class="col-sm-4">
+	      					<h2><%= link_to 't' , '#' %></h2>
+	      				</div>
+	      				<div class="col-sm-4">
+	      					<h2><%= link_to 'in' , '#' %></h2>
+	      				</div>
+	      			</div>
+      			</div>
+      		</div>
+  		</div>
 	</body>
 
 </html>
